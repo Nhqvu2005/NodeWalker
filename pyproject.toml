@@ -50,10 +50,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/nodewalker"
-Documentation = "https://github.com/yourusername/nodewalker#readme"
-Repository = "https://github.com/yourusername/nodewalker"
-Issues = "https://github.com/yourusername/nodewalker/issues"
+Homepage = "https://github.com/Nhqvu2005/NodeWalker"
+Documentation = "https://github.com/Nhqvu2005/NodeWalker#readme"
+Repository = "https://github.com/Nhqvu2005/NodeWalker"
+Issues = "https://github.com/Nhqvu2005/NodeWalker/issues"
 
 [project.scripts]
 nodewalker = "nodewalker.__main__:main"

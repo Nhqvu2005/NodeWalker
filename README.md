@@ -3,7 +3,7 @@
 [![PyPI version](https://badge.fury.io/py/nodewalker.svg)](https://badge.fury.io/py/nodewalker)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://github.com/yourusername/nodewalker/workflows/Tests/badge.svg)](https://github.com/yourusername/nodewalker/actions)
+[![Tests](https://github.com/Nhqvu2005/NodeWalker/workflows/Tests/badge.svg)](https://github.com/Nhqvu2005/NodeWalker/actions)
 
 **Lightweight Browser Control Tool for AI Agents**
 
@@ -20,8 +20,8 @@ pip install nodewalker
 
 **From source:**
 ```bash
-git clone https://github.com/yourusername/nodewalker.git
-cd nodewalker
+git clone https://github.com/Nhqvu2005/NodeWalker.git
+cd NodeWalker
 pip install -e .
 ```
 
