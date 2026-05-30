@@ -1,0 +1,42 @@
+# Add Python build artifacts
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Examples output
+examples/screenshot_*.png
+examples/scraped_*.json
+
+# Docker
+.dockerignore
+
+# Temporary files
+*.tmp
+*.bak

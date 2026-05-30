@@ -1,0 +1,80 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nodewalker"
+version = "0.2.0"
+description = "Lightweight Browser Control Tool for AI Agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "NodeWalker Contributors"}
+]
+keywords = [
+    "browser-automation",
+    "chrome-devtools-protocol",
+    "cdp",
+    "ai-agents",
+    "web-automation",
+    "selenium-alternative",
+    "playwright-alternative",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet :: WWW/HTTP :: Browsers",
+    "Topic :: Software Development :: Testing",
+]
+
+dependencies = [
+    "websockets>=12.0",
+    "aiohttp>=3.9",
+    "fastapi>=0.110",
+    "uvicorn>=0.27",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
+    "black>=23.0",
+    "ruff>=0.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/nodewalker"
+Documentation = "https://github.com/yourusername/nodewalker#readme"
+Repository = "https://github.com/yourusername/nodewalker"
+Issues = "https://github.com/yourusername/nodewalker/issues"
+
+[project.scripts]
+nodewalker = "nodewalker.__main__:main"
+
+[tool.setuptools]
+packages = ["nodewalker", "nodewalker.core", "nodewalker.tools"]
+
+[tool.setuptools.package-data]
+nodewalker = ["py.typed"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311", "py312"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+select = ["E", "F", "I", "N", "W"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]

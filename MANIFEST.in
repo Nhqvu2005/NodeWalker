@@ -1,0 +1,10 @@
+include README.md
+include TOOLS.md
+include LICENSE
+include requirements.txt
+include browser_config.json
+recursive-include nodewalker *.py
+recursive-exclude tests *
+recursive-exclude examples *
+global-exclude __pycache__
+global-exclude *.py[co]
