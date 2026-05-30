@@ -59,8 +59,8 @@ Feature requests are welcome! Please:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/nodewalker.git
-cd nodewalker
+git clone https://github.com/Nhqvu2005/NodeWalker.git
+cd NodeWalker
 
 # Install dependencies
 pip install -r requirements.txt
